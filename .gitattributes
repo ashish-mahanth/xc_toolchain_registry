@@ -1,0 +1,2 @@
+xc32_windows.zip filter=lfs diff=lfs merge=lfs -text
+xc32_linux.tar.xz filter=lfs diff=lfs merge=lfs -text
