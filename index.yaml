@@ -1,0 +1,24 @@
+items: [ xc-compiler/xc-compiler-5.0.0.json ]
+
+indexes:
+  IdentityKey/id:
+    keys:
+      compilers/arm/xc-compiler: [ 0 ]
+    words:
+      xc-compiler: [ 0 ]
+      compilers: [ 0 ]
+      compilers/arm: [ 0 ]
+      compilers/arm/xc-compiler: [ 0 ]
+
+  SemverKey/version:
+    keys:
+      5.0.0: [ 0 ]
+
+  StringKey/summary:
+    keys:
+      XC Compiler for Arm CPUs: [ 0 ]
+    words:
+      XC: [ 0 ]
+      Compiler: [ 0 ]
+      Arm: [ 0 ]
+      CPUs: [ 0 ]
