@@ -1,0 +1,53 @@
+{
+  "id": "compilers/arm/xc-compiler",
+  "version": "5.0.0",
+  "description": "XC Compiler toolchain for C/C++ and assembly development on Arm Cortex-class MCUs.",
+  "summary": "XC Compiler for Arm CPUs",
+  "contacts": {
+    "xc-compiler-team": {
+      "email": "ashish.mahanth@microchip.com",
+      "role": "originator"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://github.com/ashish-mahanth/xc_toolchain_registry/raw/refs/heads/main/xc32_windows.zip?download=",
+        "sha256": "bde070a419c32b25ca76f751f4e0b62d4b286f93b012c93a56b34ef48d855e69",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "XC_COMPILER_5_0_0": "./bin"
+        }
+      }
+    },
+    "linux and x64": {
+      "install": {
+        "untar": "https://github.com/ashish-mahanth/xc_toolchain_registry/raw/refs/heads/main/xc32_linux.tar.xz?download=",
+        "sha256": "973d51d51f42fba2a46f598e011bdaad226c098bf43a2c79591593982f6ab117",
+        "strip": 1
+      }
+    },
+    "osx": {
+      "install": {
+        "untar": "https://artifacts.example.com/xc-compiler/5.0.0/xc-c",
+        "sha256": "REPLACE_WITH_REAL_SHA256",
+        "strip": 1
+      }
+    },
+    "not windows": {
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "XC_COMPILER_5_0_0": "./bin"
+        }
+      }
+    }
+  }
+}
