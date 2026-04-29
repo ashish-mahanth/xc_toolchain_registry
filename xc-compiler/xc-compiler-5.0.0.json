@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "untar": "http://10.41.81.31/toolchains/xc32_windows.tar.xz",
+        "untar": "https://10.41.81.31/toolchains/xc32_windows.tar.xz",
         "sha256": "106b149f6ff079dc401276b6d82cf8d29676d194b093901bc760a88739429eee",
         "strip": 0
       },
@@ -27,7 +27,7 @@
     },
     "linux and x64": {
       "install": {
-        "unzip": "http://10.41.81.31/toolchains/xc32_linux.tar.xz",
+        "unzip": "https://10.41.81.31/toolchains/xc32_linux.tar.xz",
         "sha256": "973d51d51f42fba2a46f598e011bdaad226c098bf43a2c79591593982f6ab117",
         "strip": 0
       }
