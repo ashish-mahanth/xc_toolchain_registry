@@ -28,7 +28,7 @@
     "linux and x64": {
       "install": {
         "unzip": "https://github.com/ashish-mahanth/xc_toolchain_registry/raw/refs/heads/main/xc32_windows.zip",
-        "sha256": "973d51d51f42fba2a46f598e011bdaad226c098bf43a2c79591593982f6ab117",
+        "sha256": "bde070a419c32b25ca76f751f4e0b62d4b286f93b012c93a56b34ef48d855e69",
         "strip": 0
       }
     },
