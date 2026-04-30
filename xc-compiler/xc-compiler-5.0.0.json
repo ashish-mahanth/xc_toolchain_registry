@@ -27,7 +27,7 @@
     },
     "linux and x64": {
       "install": {
-        "unzip": "https://artifacts.microchip.com/artifactory/xc-generic-release-candidate/toolchain-images/xc32_linux.tar.xz",
+        "untar": "https://artifacts.microchip.com/artifactory/xc-generic-release-candidate/toolchain-images/xc32_linux.tar.xz",
         "sha256": "973d51d51f42fba2a46f598e011bdaad226c098bf43a2c79591593982f6ab117",
         "strip": 0
       }
